@@ -65,7 +65,7 @@ This app covers:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Akerioth/HermesAdminApp.git
+[link] git clone https://github.com/Akerioth/HermesAdminApp.git
 cd HermesAdminApp
 ```
 
