@@ -1,0 +1,89 @@
+# Hermes Admin App
+
+Welcome to the Hermes Admin App - A comprehensive administrative dashboard for managing your application efficiently.
+
+## 📋 Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation)
+
+## Overview
+
+Hermes Admin App is a modern, user-friendly administrative interface designed to streamline your management workflows. Built with responsive design principles, it provides a seamless experience across all devices.
+
+## ✨ Features
+
+- **Dashboard**: Real-time analytics and metrics overview
+- **User Management**: Create, update, and manage user accounts
+- **Reporting**: Generate comprehensive reports and exports
+- **Settings**: Configurable application preferences
+- **Notifications**: Real-time alerts and notifications system
+- **Security**: Role-based access control (RBAC)
+
+## 🚀 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/HermesAdminApp.git
+
+# Navigate to project directory
+cd HermesAdminApp
+
+# Install dependencies
+npm install
+
+# Start the application
+npm start
+```
+
+## 📖 Documentation
+
+### Notes
+> **Important**: Always ensure you have proper authentication credentials before accessing the admin panel.
+> 
+> The application uses JWT tokens for session management. Keep your tokens secure and never share them publicly.
+
+### Getting Started
+1. Log in with your admin credentials
+2. Navigate to the Dashboard to view system metrics
+3. Access User Management to administer accounts
+4. Configure settings as needed in the Settings panel
+
+### Key Components
+- **Authentication Module**: Handles user login and session management
+- **Database Layer**: Manages all data persistence
+- **API Gateway**: Provides RESTful endpoints for frontend communication
+- **Admin Interface**: User-friendly dashboard for all operations
+
+### API Endpoints
+- `GET /api/users` - Retrieve all users
+- `POST /api/users` - Create new user
+- `PUT /api/users/:id` - Update user information
+- `DELETE /api/users/:id` - Remove user account
+- `GET /api/reports` - Generate reports
+
+## 🔧 Configuration
+
+Edit the `.env` file to configure:
+```
+DATABASE_URL=your_database_url
+API_PORT=3000
+JWT_SECRET=your_secret_key
+```
+
+## 📝 Additional Notes
+
+- Ensure Node.js v14+ is installed
+- Database migrations run automatically on startup
+- For production deployment, set NODE_ENV=production
+- Regular backups are recommended for data safety
+
+## 🤝 Support
+
+For issues or questions, please create an issue in the repository or contact the development team.
+
+---
+
+**Last Updated**: 2024 | **Version**: 1.0.0
