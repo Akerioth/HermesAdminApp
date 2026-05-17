@@ -65,7 +65,8 @@ This app covers:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-org/HermesAdminApp.git
+git@github.com:Akerioth/HermesAdminApp.git
+git clone https://github.com/Akerioth/HermesAdminApp.git
 cd HermesAdminApp
 ```
 
@@ -107,7 +108,7 @@ Recommended tools:
 ```bash
 git checkout main
 git pull origin main
-git checkout -b feature/your-feature-name
+git checkout -b feature/main
 ```
 
 ### Commit messages
@@ -119,7 +120,7 @@ git checkout -b feature/your-feature-name
 - Push branch to remote:
 
 ```bash
-git push origin feature/your-feature-name
+git push origin feature/main
 ```
 
 - Open a pull request with:
